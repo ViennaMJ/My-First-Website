@@ -9,6 +9,73 @@ body {
 }
 
 
+
+
+header {
+    background: lightblue;
+    overflow: hidden;
+}
+header > div {
+    max-width: 960px;
+    margin: 0 auto;
+}
+header > div > a {
+    float: left;
+    padding: 12px;
+    text-decoration: none;
+    color: #000;
+}
+header > div > a:hover {
+    color: #fff;
+}
+header > div > a > img {
+    width: 200px;
+    vertical-align: middle;
+}
+
+header > div > nav {
+    float: right;
+    padding: 12px;
+}
+header > div > nav > a {
+    display: inline-block;
+    margin: 0 0 0 12px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font: 400 18px/48px arial;
+    vertical-align: middle;
+}
+header > div > nav > a:hover {
+    color: #fff;
+}
+header > div > nav > a.cart {
+    
+}
+header > div > nav > a.cart > img {
+    width: 24px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .about-me {
     background: lightblue
 }
