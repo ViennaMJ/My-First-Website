@@ -25,6 +25,7 @@ header {
     position: fixed;
     z-index: 500;
     width: 100%;
+    background-color: #fff;
     
 }
 header > div {
@@ -206,3 +207,69 @@ header > div > nav > a.cart > img {
     
     top: -4px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    
+}
+footer > div {
+    max-width: 1500px;
+    display: inline-block;
+    
+}
+footer > div > section {
+    float: left;
+    padding: 12px;
+    width: 33.333%;
+}
+footer > div > section > h4 {
+    
+}
+footer > div > section > a {
+    display: block;
+}
+footer > div > section > a > img {
+    width: 58px;
+    padding: 8px;
+}
+footer > div > div {
+    clear: both;
+}
+footer > div > div > a {
+    
+}
+footer > div > div > div {
+    
+}
+footer > div > div > div > h4 {
+    
+}
+footer > div > div > div > a {
+    
+}
+footer > div > div > div > a > img {
+    
+}
+
+
+
+
+
+
+
+
+
