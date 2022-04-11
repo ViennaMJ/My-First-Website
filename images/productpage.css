@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body {
+    text-align: center;
+}
+
+
+
+
+
+
+
+header {
+    overflow: hidden;
+    margin-bottom: 0;
+    position: fixed;
+    z-index: 500;
+    width: 100%;
+    background-color: #fff;
+    font-family: 'DM Sans';
+    
+}
+header > div {
+    max-width: 960px;
+    margin: 0 auto;
+}
+header > div > a {
+    float: left;
+    padding: 12px;
+    text-decoration: none;
+    color: #000;
+    width: 300px;
+    max-width: 50%;
+}
+header > div > a:hover {
+    color: #fff;
+}
+header > div > a > img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+header > div > nav {
+    float: right;
+    padding: 12px;
+}
+header > div > nav > a {
+    display: inline-block;
+    margin: 0 0 0 12px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font: 400 18px/48px arial;
+    font-family: 'DM Sans';
+    vertical-align: middle;
+}
+header > div > nav > a:hover {
+    color: #33b3ff;
+}
+header > div > nav > a.cart {
+    
+}
+header > div > nav > a.cart > img {
+    width: 24px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner {
+    height: 100vh;
+    white-space: nowrap;
+    background-image: url(/images/person.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner:before {
+    content: '\00a0';
+    display: block;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.25)
+    
+}
+.banner:after {
+    content: '\00a0';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0px;
+}
+.banner > hgroup {
+    display: inline-block;
+    max-width: 720px;
+    vertical-align: middle;
+    white-space: normal;
+    color: #fff;
+    z-index: 200;
+    position: relative;
+}
+.banner > hgroup > h1 {
+    font: 900 36px/48px arial;
+    font-family: 'DM Sans';
+    text-transform: uppercase;
+}
+.banner > hgroup > p {
+    font: 400 18px/24px arial;
+    font-family: 'DM Sans';
+    text-transform: uppercase;
+}
+.banner > hgroup > a {
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 6px 24px;
+    font: 900 24px/30px arial;
+    font-family: 'DM Sans';
+    margin: 12px 0 0 0;
+    border-radius: 96px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-me {
+    background: #33b3ff;
+    
+    
+}
+.about-me > .photo {
+    display: block;
+    margin: 0 auto;
+    width: 320px;
+    height: 320px;
+    background-size: cover;
+    background-position: top left;
+    border-radius: 250px;
+    border: 3px solid #000;
+    box-shadow: 0 0 0 3px #fff inset;
+    margin-top: 10px;
+}
+
+.about-me > h1 {
+    text-align: center;
+    margin: 0 0 12px 0;
+    font: 800 50px/50px 'DM Sans', sans-serif;
+    
+}
+.about-me > p {
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 24px;
+    font-size: 24px;
+    font-family: 'DM Sans';
+}
+.about-me > a.button {
+    position: relative;
+    top: 0;
+    display: inline-block;
+    
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+    padding: 12px 36px;
+    border-radius: 96px;
+    text-transform: uppercase;
+    border: 3px solid #000;
+    
+    transition: all .3s ease-in 0s;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.about-me > a.button:hover {
+    background: #000;
+    color: #fff;
+    
+    top: -4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product-list {
+    
+}
+.product-list > section.filter {
+    
+}
+.product-list > section.filter > strong {
+    
+}
+.product-list > section.filter > ul {
+    
+}
+.product-list > section.filter > ul > a {
+    
+}
+.product-list > ul {
+    
+}
+.product-list > ul > li {
+    
+}
+.product-list > ul > li > h2 {
+
+}
+.product-list > ul > li > h3 {
+    
+}
+.product-list > ul > li > img {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    font-family: 'DM Sans';
+}
+footer > div {
+    max-width: 1500px;
+    display: inline-block;
+    
+}
+footer > div > section {
+    float: left;
+    padding: 12px;
+    width: 33.333%;
+}
+footer > div > section > h4 {
+    
+}
+footer > div > section > a {
+    display: block;
+}
+footer > div > section > a > img {
+    width: 58px;
+    padding: 8px;
+}
+footer > div > div {
+    clear: both;
+}
+footer > div > div > a {
+    
+}
+footer > div > div > a > img {
+    max-width: 200px;
+}
+footer > div > div > div {
+    
+}
+footer > div > div > div > h4 {
+    
+}
+footer > div > div > div > a {
+    
+}
+footer > div > div > div > a > img {
+    max-width: 150px
+}
+
+
+
+
+
+
+
+
+

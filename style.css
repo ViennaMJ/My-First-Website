@@ -229,6 +229,65 @@ header > div > nav > a.cart > img {
 
 
 
+
+
+
+
+
+
+
+
+.product-list {
+    
+}
+.product-list > section.filter {
+    
+}
+.product-list > section.filter > strong {
+    
+}
+.product-list > section.filter > ul {
+    
+}
+.product-list > section.filter > ul > a {
+    
+}
+.product-list > ul {
+    
+}
+.product-list > ul > li {
+    
+}
+.product-list > ul > li > h2 {
+
+}
+.product-list > ul > li > h3 {
+    
+}
+.product-list > ul > li > img {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     font-family: 'DM Sans';
 }
@@ -280,5 +339,59 @@ footer > div > div > div > a > img {
 
 
 
+.product-details {
+    padding: 72px 0 0 0;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.product-details > .primary-photo {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.product-details > .primary-photo > img {
+    width: 100%;
+}
+.product-details > .detials {
+    width: 49%;
+    display: inline-block;
+    color: #fff;
+    vertical-align: middle;
+}
+.product-details > .detials > h1 {
+    font: 900 30px/36px 'DM Sans';
+    text-transform: uppercase;
+}
+.product-details > .detials > h2.price {
+    font: 200 30px/36px 'DM Sans';
+}
+.product-details > .detials > button {
+    padding: 6px 18px;
+    font: 900 20px/36px 'DM Sans';
+    text-transform: uppercase;
+    border-radius: 9px;
+    border: none;
+    background: #f16;
+    color: #fff;
+}
+.product-details > .detials > p {
+    font: 200 24px/36px 'DM Sans';
+}
 
 
+
+
+@media all and (max-width: 960px) {
+    .product-details > .primary-photo {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 320px;
+    }
+}
+
+
+
+.snipcart-modal__container {
+        z-index: 10000!important;
+}
