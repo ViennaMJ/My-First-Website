@@ -84,7 +84,7 @@ header > div > nav > a.cart > img {
 .banner {
     height: 100vh;
     white-space: nowrap;
-    background-image: url(/images/person.jpg);
+    background-image: url(/images/bannerimg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
