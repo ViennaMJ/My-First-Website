@@ -51,6 +51,7 @@ header > div > a > img {
 header > div > nav {
     float: right;
     padding: 12px;
+    
 }
 header > div > nav > a {
     display: inline-block;
@@ -96,7 +97,7 @@ header > div > nav > a.cart > img {
     z-index: 100;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.25)
+    background: rgba(0,0,0,.40)
     
 }
 .banner:after {
@@ -207,7 +208,7 @@ header > div > nav > a.cart > img {
 
 
 .product-list {
-    
+    font-family: 'DM Sans';
 }
 .product-list > section.filter {
     
@@ -222,18 +223,25 @@ header > div > nav > a.cart > img {
     
 }
 .product-list > ul {
-    
+    padding: 96px 24px;
 }
 .product-list > ul > li {
+    display: inline-block;
+    width: 33%;
+    padding: 24px;
     
 }
 .product-list > ul > li > h2 {
-
+    font-size: 18px;
 }
 .product-list > ul > li > h3 {
-    
+    font-size: 16px
 }
 .product-list > ul > li > img {
+    max-height: 150px;
+    max-width: 150px;
+    
+    
     
 }
 
