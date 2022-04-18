@@ -18,7 +18,6 @@ body {
 
 
 
-
 header {
     overflow: hidden;
     margin-bottom: 0;
@@ -73,10 +72,6 @@ header > div > nav > a.cart > img {
     width: 24px;
     vertical-align: middle;
 }
-
-
-
-
 
 
 
@@ -150,15 +145,6 @@ header > div > nav > a.cart > img {
 
 
 
-
-
-
-
-
-
-
-
-
 .about-me {
     background: #33b3ff;
     
@@ -220,23 +206,6 @@ header > div > nav > a.cart > img {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .product-list {
     
 }
@@ -267,21 +236,6 @@ header > div > nav > a.cart > img {
 .product-list > ul > li > img {
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
