@@ -174,7 +174,10 @@ header > div > nav > a.cart > img {
     padding: 24px;
 }
 .product-list > ul > li > a {
-    
+    color: #000;
+}
+.product-list > ul > li > a:hover {
+    color: #33b3ff;
 }
 .product-list > ul > li > a > h2 {
     font-size: 18px;
@@ -184,11 +187,16 @@ header > div > nav > a.cart > img {
 }
 .product-list > ul > li > a > img {
     max-height: 150px;
-    max-width: 150px;
-    
-    
-    
+    max-width: 150px;    
 }
+
+
+
+
+
+
+
+
 
 
 
